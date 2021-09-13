@@ -1,0 +1,27 @@
+#main-header{
+    text-align:center;
+}
+
+#navbar ul{
+    list-style:none;
+    padding:0;
+}
+
+#navbar li{
+    display:inline;
+}
+
+#navbar a{
+    text-decoration:none;
+    color:#fff;
+    padding-right:15px;
+}
+
+#navbar a:hover{
+    color:#6CAC5a
+}
+
+.container{
+    width:80%;
+    margin:auto;
+}
