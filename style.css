@@ -21,6 +21,17 @@
     color:#6CAC5a
 }
 
+#portfolios{
+    display:flex;
+    flex-wrap:wrap;
+}
+
+.portfolio{
+    width:50%;
+    padding:5px;
+    box-sizing:border-box;
+}
+
 .container{
     width:80%;
     margin:auto;
