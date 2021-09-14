@@ -18,7 +18,7 @@ p{
 body{
     margin:0;
     padding:0;
-    background-color:#3e80cc;
+    background-color:#2B2F77;
 }
 
 #landing{
@@ -33,13 +33,12 @@ body{
 }
 
 #skyline{
-    width:2700px;
     height:268px;
     background-image:url("../portfolio/images/city_silhouette.png");
     background-repeat:repeat-x;
     background-attachment:scroll;
     animation:passingby;
-    animation-duration:20s;
+    animation-duration:3s;
     animation-iteration-count:infinite;
     position:relative;
     animation-timing-function:linear;
@@ -47,7 +46,7 @@ body{
 
 @keyframes passingby{
     0% {background-position:0px;}
-    100% {background-position:-2700px;}
+    100% {background-position:-900px;}
 }
 
 #main-body{
@@ -66,7 +65,7 @@ body{
 
 #navbar a{
     text-decoration:none;
-    padding-right:15px;
+    padding-right:10px;
     color:white;
 }
 
