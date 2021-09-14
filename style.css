@@ -36,6 +36,10 @@ body{
     height:calc(100vh - 309px);
 }
 
+#main-header h1, #main-header h2{
+    color:#FEFCD7;
+}
+
 #skyline{
     height:309px;
     background-image:url("../portfolio/images/city_skyline.png");
