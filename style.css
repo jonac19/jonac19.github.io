@@ -30,6 +30,11 @@ body{
 
 #main-header{
     text-align:center;
+    height:calc(100vh - 268px);
+}
+
+#main-header h1{
+    padding-top:100px;
 }
 
 #skyline{
