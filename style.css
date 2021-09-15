@@ -82,13 +82,22 @@ body{
     padding-bottom:20px;
 }
 
-#desciption{
-    width:40%
+#headshot{
+    width:40%;
+    background-image:url("../portfolio/images/placeholder.jpeg");
+    background-size:contain;
+    background-position:center;
+    overflow:hidden;
 }
 
-#headshot{
-    width:60%;
-    padding-right:20px
+#description{
+    padding-left:20px;
+}
+
+.frame{
+    height:auto;
+    width:100%;
+    display:block;
 }
 
 #portfolios{
