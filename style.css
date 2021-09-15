@@ -93,23 +93,30 @@ body{
 
 #portfolios{
     display:flex;
+    flex-direction: column;
     flex-wrap:wrap;
 }
 
 .portfolio{
-    width:50%;
-    padding:5px;
-    box-sizing:border-box;
-}
-
-.portfolio img{
-    width:100%
+    display:flex;
+    padding:20px 0px;
 }
 
 #skyline-bottom{
+    display:flex;
+    justify-content:center;
+    align-items:center;
     height:175px;
+    width:100vw;
     background-image:url("../portfolio/images/cave.png");
     background-repeat:repeat-x;
+}
+
+.logo{
+    height:50px;
+    width:50px;
+    border-radius:100%;
+    padding:10px;
 }
 
 #contact h2{
