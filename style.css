@@ -3,15 +3,7 @@ html{
     font-family: 'Cabin', sans-serif;
 }
 
-h1{
-    color:#FEFCD7;
-}
-
-h2{
-    color:#FEFCD7;
-}
-
-p{
+h1, h2, h3, p{
     color:#FEFCD7;
 }
 
@@ -97,6 +89,28 @@ body{
     display:block;
     width:50%;
     height:auto;
+}
+
+#contact-info{
+    display:flex;
+    align-items:center;
+}
+
+#contact-info h3{
+    font-weight:bold;
+    font-size:smaller;
+    color:#8b8a72;
+}
+
+#contact-info a{
+    color:#8b8a72;
+    text-decoration:none;
+    transition-property:color;
+    transition-duration:500ms;
+}
+
+#contact-info a:hover{
+    color:#FEFCD7;
 }
 
 #portfolios{
