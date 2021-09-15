@@ -4,15 +4,15 @@ html{
 }
 
 h1{
-    color:white;
+    color:#FEFCD7;
 }
 
 h2{
-    color:white;
+    color:#FEFCD7;
 }
 
 p{
-    color:white;
+    color:#FEFCD7;
 }
 
 body{
@@ -40,7 +40,7 @@ body{
     color:#FEFCD7;
 }
 
-#skyline{
+#skyline-top{
     height:309px;
     background-image:url("../portfolio/images/city_skyline.png");
     background-repeat:repeat-x;
@@ -62,7 +62,7 @@ body{
 #navbar ul{
     list-style:none;
     margin:0;
-    padding:0;
+    padding-top:10px;
 }
 
 #navbar li{
@@ -72,7 +72,7 @@ body{
 #navbar a{
     text-decoration:none;
     padding-right:10px;
-    color:white;
+    color:#FEFCD7;
 }
 
 #main{
@@ -106,7 +106,18 @@ body{
     width:100%
 }
 
+#skyline-bottom{
+    height:175px;
+    background-image:url("../portfolio/images/cave.png");
+    background-repeat:repeat-x;
+}
+
+#contact h2{
+    margin-bottom:0;
+}
+
 #main-footer{
+    background-color:black;
     text-align:center;
     color:white;
 }
