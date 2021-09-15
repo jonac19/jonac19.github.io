@@ -93,13 +93,22 @@ body{
 
 #portfolios{
     display:flex;
-    flex-direction: column;
-    flex-wrap:wrap;
+    flex-direction:column;
+    gap:20px;
 }
 
-.portfolio{
+.port{
     display:flex;
-    padding:20px 0px;
+    align-items:center;
+    justify-content:space-around;
+}
+
+.port img{
+    width: 45%;
+}
+
+.port p{
+    width:50%;
 }
 
 #skyline-bottom{
