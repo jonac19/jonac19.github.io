@@ -63,16 +63,15 @@ body{
     padding-bottom:20px;
 }
 
-#headshot{
-    display:flex;
-    width:40%;
-    justify-content:center;
+#headshot img{
+    width:200px;
+    margin-right:20px;
+    margin-left:100px;
 }
 
-#headshot img{
-    display:block;
-    width:50%;
-    height:auto;
+#description{
+    margin-right:100px;
+    line-height:1.5em;
 }
 
 #contact-info{
@@ -84,6 +83,7 @@ body{
     font-weight:bold;
     font-size:smaller;
     color:#8b8a72;
+    margin-top:0;
 }
 
 #contact-info a{
@@ -101,6 +101,7 @@ body{
     display:flex;
     flex-direction:column;
     gap:20px;
+    padding-bottom:20px;
 }
 
 .port{
@@ -161,6 +162,7 @@ body{
 
 #contact h2{
     margin-bottom:0;
+    padding-bottom:20px;
 }
 
 #main-footer{
@@ -174,16 +176,12 @@ body{
     margin:auto;
 }
 
-@media(max-width:400px){
-    #main{
-        flex-wrap:wrap;
+@media screen and (max-width:1000px){
+    #headshot img{
+        margin-left:0px;
     }
 
-    #headshot{
-        width:100%;
-    }
-
-    .portfolio{
-        width:100%;
+    #description{
+        margin-right:0px;
     }
 }
