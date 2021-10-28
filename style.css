@@ -39,7 +39,7 @@ body{
 
 #skyline-top{
     height:309px;
-    background-image:url("../portfolio/images/city_skyline.png");
+    background-image:url("./images/city_skyline.png");
     background-repeat:repeat-x;
     animation:passingby;
     animation-duration:10s;
@@ -124,7 +124,7 @@ body{
     align-items:center;
     height:175px;
     width:100vw;
-    background-image:url("../portfolio/images/cave.png");
+    background-image:url("./images/cave.png");
     background-repeat:repeat-x;
 }
 
