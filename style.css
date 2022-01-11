@@ -97,6 +97,17 @@ body{
     color:#FEFCD7;
 }
 
+#skills{
+    display:flex;
+    justify-content:space-around;
+}
+
+.skill{
+    padding:10px;
+    border:#8b8a72 5px solid;
+    border-radius:10%;
+}
+
 #portfolios{
     display:flex;
     flex-direction:column;
