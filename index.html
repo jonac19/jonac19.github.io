@@ -2,77 +2,93 @@
 <html>
     <head>
         <title>Jonathan Chen</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" type="text/css" href="style.css"></link>
     </head>
     <body>
         <main>
             <div id="particles-js"></div>
-            <header id="main-header">
+            <header class="main-header">
                 <h1>Jonathan Chen</h1>
                 <h2>Motivated to learn and apply</h2>
             </header>
-            <div id="skyline-container">
-                <div id="skyline-top"></div>
-                <div id="main-body">
-                    <div id="profile" class="container">
-                        <div id="headshot">
-                            <img src="./images/headshot.jpg">
-                        </div>
-                        <div id=description>
-                            <h1>Welcome!</h1>
-                            <p>I'm a computer science student studying at University of California, Irvine. While building projects and solving problems to solidify what I've learned, I hope to further develop my skills in a professional environment.</p>
-                            <div id="contact-info">
-                                <h3>SAN FRANCISCO, CA  |  (415) 342-5026  |  <a href="mailto:jonachen2020@gmail.com">JONACHEN2020@GMAIL.COM</a></h3>
-                            </div>
+            <div class="cityskyline"></div>
+            <div class="main-body">
+                <div class="profile container">
+                    <div class="headshot">
+                        <img src="./images/headshot.jpg">
+                    </div>
+                    <div class=description>
+                        <h1>Welcome!</h1>
+                        <p>I'm a computer science student studying at University of California, Irvine. While building projects and solving problems to solidify what I've learned, I hope to further develop my skills in a professional environment.</p>
+                        <div class="contact-info">
+                            <h3>SAN FRANCISCO, CA | (415) 342-5026 | <a href="mailto:jonachen2020@gmail.com">JONACHEN2020@GMAIL.COM</a></h3>
                         </div>
                     </div>
-                    <div class="container">
-                        <h2>Skills</h2>
-                        <div id="skills">
-                            <h3 class="skill">Python</h3>
-                            <h3 class="skill">C++</h3>
-                            <h3 class="skill">Java</h3>
-                            <h3 class="skill">JavaScript</h3>
-                            <h3 class="skill">CSS</h3>
-                            <h3 class="skill">HTML</h3>
-                        </div>
+                </div>
+                <div class="container">
+                    <h2>Skills</h2>
+                    <div class="skills">
+                        <h3 class="skill">Python</h3>
+                        <h3 class="skill">C++</h3>
+                        <h3 class="skill">Swift</h3>
+                        <h3 class="skill">JavaScript</h3>
+                        <h3 class="skill">CSS</h3>
+                        <h3 class="skill">HTML</h3>
                     </div>
-                    <div class="container">
-                        <h2>Projects</h2>
-                        <div id="portfolios">
-                            <div class="port">
-                                <img class="port-img" src="./images/todoApp_listibility.png">
-                                <div class="port_desc">
-                                    <h3 class="port_title">Listibility - To Do Application</h3>
-                                    <p class="port-text">A to-do application to track, manage, and complete your day-to-day tasks. Supports tag assignment to easily group your tasks accordingly.</p>
-                                    <p class="port-text">Built with HTML, CSS, and JavaScript.</p>
-                                </div>
+                </div>
+                <div class="container">
+                    <h2>Projects</h2>
+                    <div class="projects">
+                        <div class="project">
+                            <img class="project-img" src="./images/projects/uciSearchEngine.png">
+                            <div class="project-desc">
+                                <h3>UCI Search Engine - Information Retrieval Application</h3>
+                                <p>A search engine for the UCI domain made in CS121. Incorporated indexing, classification, and retrieval of documents to maximize the results of seach queries.</p>
+                                <p>Built with Python.</p>
                             </div>
-                            <div class="port">
-                                <img class="port-img" src="./images/secretSanta_secretCutie.png">
-                                <div class="port_desc">
-                                    <h3 class="port_title">Secret Cutie - Secret Santa Application</h3>
-                                    <p class="port-text">A secret santa application for gift-giving fun with your friends and family during the holiday season. Inspired by the Cutie Hack Hackathon.</p>
-                                    <p class="port-text">Built with HTML, CSS, and JavaScript.</p>
-                                </div>
+                        </div>
+                        <div class="project">
+                            <img class="project-img" src="./images/projects/secretCutie.png">
+                            <div class="project-desc">
+                                <h3>Secret Cutie - Secret Santa Application</h3>
+                                <p>A secret santa application inspired by the Cutie Hack Hackathon. People entered into the gift exchange are matched with no duplicates.</p>
+                                <p>Built with HTML, CSS, and JavaScript.</p>
+                                <a href="https://github.com/jonac19/secret-cutie" target="_blank">
+                                    <img class="icon" src="./images/icons/githubIcon.png">
+                                </a>
+                                <a href="https://secret-cutie.herokuapp.com/" target="_blank">
+                                    <img class="icon" src="./images/icons/globeIcon.png">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="project">
+                            <img class="project-img" src="./images/projects/coffeeHelper.png">
+                            <div class="project-desc">
+                                <h3>Coffee Helper - Recipe Organizer Application</h3>
+                                <p>A mockup of an internal application for a coffee business to help baristas learn and remember drink recipes.</p>
+                                <p>Built with Swift (SwiftUI).</p>
+                                <a href="https://github.com/jonac19/coffee-helper" target="_black">
+                                    <img class="icon" src="./images/icons/githubIcon.png">
+                                </a>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div id="skyline-bottom">
+            <div class="caveskyline">
                 <a href="https://github.com/jonac19" target="_blank">
-                    <img id="github" class="logo bouncing" src="./images/github_logo.png">
+                    <img id="github" class="icon bouncing" src="./images/icons/githubIcon.png">
                 </a>
                 <a href="https://linkedin.com/in/jonathan-chen-41707a176" target="_blank">
-                    <img id="linkedin" class="logo bouncing" src="./images/linkedin_logo.png">
+                    <img id="linkedin" class="icon bouncing" src="./images/icons/linkedinIcon.png">
                 </a>
                 <a href="JonathanChen-Resume.pdf" target="_blank">
-                    <img id="resume" class="logo bouncing" src="./images/resume_logo.png">
+                    <img id="resume" class="icon bouncing" src="./images/icons/resumeIcon.png">
                 </a>
             </div>
         </main>
-        <footer id="main-footer"> 
+        <footer class="main-footer"> 
             <small>Copyright &copy;2021 Jonathan Chen</small>
         </footer>
     </body>
