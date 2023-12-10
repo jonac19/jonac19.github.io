@@ -105,18 +105,6 @@ body{
     color:#FEFCD7;
 }
 
-.skills{
-    display:flex;
-    justify-content:space-around;
-    flex-wrap: wrap;
-}
-
-.skill{
-    padding:10px;
-    border:#8b8a72 5px solid;
-    border-radius:10%;
-}
-
 .projects{
     display: flex;
     flex-direction: column;
